@@ -1,0 +1,16 @@
+.odd {
+    background-color: #f0f8ff !important; /* Цвет для нечетных строк */
+}
+
+.even {
+    background-color: #f71818 !important; /* Цвет для четных строк */
+}
+
+.table.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f0f8ff !important; /* Цвет для нечетных строк */
+}
+
+.table.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #f71818 !important; /* Цвет для четных строк */
+}
+

@@ -1,0 +1,42 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+// Переопределяем цветовую схему
+$theme-colors: (
+  "custom-red": #F71818,
+  "custom-white": #ffffff
+);
+
+// custom-bootstrap.scss
+
+// Стиль для таблицы с чередующимися строками
+// custom-bootstrap.scss
+
+.table-custom {
+  // Белый фон для заголовка таблицы
+  thead th {
+      background-color: #FFFFFF; // Белый фон заголовка
+      color: #000000;            // Черный текст заголовка
+      font-weight: bold;
+  }
+
+  // Чередование строк
+  tbody tr:nth-child(even) {
+      background-color: #F71818; // Красный фон для четных строк
+      color: #FFFFFF;            // Белый текст для четных строк
+  }
+
+  tbody tr:nth-child(odd) {
+      background-color: #FFFFFF; // Белый фон для нечетных строк
+      color: #000000;            // Черный текст для нечетных строк
+  }
+
+  // Цвет фона при наведении
+  tbody tr:hover {
+      background-color: #FFE5E5; // Светло-красный фон при наведении
+  }
+}
+
+
+// Подключаем основные стили Bootstrap с переопределёнными переменными
+@import "bootstrap/scss/bootstrap";

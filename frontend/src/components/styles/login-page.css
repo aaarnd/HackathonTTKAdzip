@@ -1,0 +1,26 @@
+.vertical {
+    height: 100vh;
+}
+
+.rounded-input {
+    border-radius: '35px';
+}
+
+.rounded-modal .modal-content {
+    border-radius: '35px' !important; /* Закругление модального окна */
+}
+
+.rounded-modal .modal-header,
+.rounded-modal .modal-body,
+.rounded-modal .modal-footer {
+    border-radius: '35px' !important; /* Закругление внутренних частей модального окна */
+}
+
+.rounded-modal .btn {
+    border-radius: '35px' !important; /* Закругление кнопок */
+}
+
+.rounded-modal .form-control,
+.rounded-modal .border {
+    border-radius: '35px' !important; /* Закругление полей формы и других элементов с рамкой */
+}

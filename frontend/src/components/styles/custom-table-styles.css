@@ -1,0 +1,50 @@
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-custom thead tr {
+    background-color: #FFFFFF; /* Цвет заголовка */
+    color: #000000; /* Цвет текста заголовка */
+    font-weight: bold; /* Жирный текст заголовка */
+}
+
+.table-custom tbody tr:nth-child(odd) {
+    background-color: #F71818; /* Красный цвет для нечётных строк */
+    color: #FFFFFF; /* Белый цвет текста для нечётных строк */
+}
+
+.table-custom tbody tr:nth-child(even) {
+    background-color: #FFFFFF; /* Белый цвет для чётных строк */
+    color: #000000; /* Чёрный цвет текста для чётных строк */
+}
+
+.table-custom tbody tr:hover {
+    background-color: #D3D3D3; /* Серый цвет при наведении */
+    color: #000000; /* Чёрный цвет текста при наведении */
+}
+
+.table-custom {
+    width: 100%; /* Увеличиваем ширину таблицы на 100% */
+    border-radius: 20px; /* Закругляем углы таблицы */
+    overflow: hidden; /* Скрываем лишние части */
+    border: 1px solid #F05959; /* Добавляем границу таблицы */
+}
+
+.table-custom th, .table-custom td {
+    border: none; /* Убираем стандартные границы ячеек */
+}
+
+.table-custom th {
+    background-color: #FFFFFF; /* Фон заголовков */
+    color: #000000; /* Цвет текста заголовков */
+    border-color: #000000;
+}
+
+.modal-wide .modal-dialog {
+    max-width: 90vw; /* Ширина модального окна 90% от ширины экрана */
+}
+
+.modal-content {
+    width: 130%;
+}
