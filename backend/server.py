@@ -10,7 +10,7 @@ from flask_cors import CORS
 from functools import wraps
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'ZBW8dO_JLq'
+app.config['SECRET_KEY'] = ''
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
